@@ -2,6 +2,7 @@ import React,{Component} from "react";
 import CardList from "../components/cardList";
 import Scroll from "../components/Scroll"
 import Searchbox from "../components/searchbox";
+import errorBoundries from "../components/errorBoundries"
 import './App.css';
 
 
@@ -50,7 +51,9 @@ render(){
     <h1 className='tc f2'>Robo Friends</h1>
     <Searchbox searchChange={this.onSearchChange}/>
     <Scroll>
+    <errorBoundries>
 <CardList Robots={filteredRobots}/>
+    </errorBoundries>
     </Scroll>
 </div>
    );
