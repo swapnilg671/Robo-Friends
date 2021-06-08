@@ -4,7 +4,7 @@ class Scroll extends Component {
     render(props) {
         console.log(this.props.children);
         return (
-            <div style={{overflowY:'scroll', border:'3px solid black',height:'600px'  }}>
+            <div style={{overflowY:'scroll', border:'1.5px solid black',height:'600px'  }}>
             {this.props.children}
             </div>
         )
