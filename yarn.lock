@@ -566,7 +566,7 @@
     "postcss" "^5.2.16"
     "postcss-value-parser" "^3.2.3"
 
-"autoprefixer@7.1.6":
+"autoprefixer@^7.1.6", "autoprefixer@7.1.6":
   "integrity" "sha512-C9yv/UF3X+eJTi/zvfxuyfxmLibYrntpF3qoJYrMeQwgUJOZrZvpJiMG2FMQ3qnhWtF/be4pYONBBw95ZGe3vA=="
   "resolved" "https://registry.npmjs.org/autoprefixer/-/autoprefixer-7.1.6.tgz"
   "version" "7.1.6"

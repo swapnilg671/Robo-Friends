@@ -40,14 +40,12 @@ componentDidMount(){
    */
 
 render(){
-    const filteredRobots= this.state.Robots.filter(Robots =>{
-        return Robots.name.toLowerCase().includes(this.state.searchfield.toLowerCase()); }
+    const filteredRobots= this.state.Robots.filter(robot =>{
+        return robot.name.toLowerCase().includes(this.state.searchfield.toLowerCase()); }
     )
-    if(this.state.Robots.length===0){
-      return  <h2 className= 'tc'> loading</h2>
-    }
-    else{
-    return(
+   return( !this.state.Robots.length ? 
+       <h2 className= 'tc'> loading</h2>
+    :     // we have used ternary operator instead of if{return()}- else{return()}
 <div className="tc">
     <h1 className='tc f2'>Robo Friends</h1>
     <Searchbox searchChange={this.onSearchChange}/>
@@ -55,8 +53,7 @@ render(){
 <CardList Robots={filteredRobots}/>
     </Scroll>
 </div>
-  );
-}
+   );
  }
 }
 export default App;
