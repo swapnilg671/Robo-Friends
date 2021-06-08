@@ -1,7 +1,16 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+# imported tachyons(styling) from Tachyons
+https://tachyons.io/ used styled input 
+# Fetched API for username from JSON Place holder
+https://jsonplaceholder.typicode.com/users
+JSONPlaceholder is a free online REST API that you can use whenever you need some mock data.
+# imported robots images/avatar from
+https://robohash.org/
+Robohash is a easy web service that makes it easy to provide unique, robot/alien/monster/whatever images for any text.
+Put in any text, such as IP address, email, filename, userid, or whatever else you like, and get back a pretty image for your site.
+# Added SearchBox and Scroll
 ## Available Scripts
 
 In the project directory, you can run:
