@@ -11,6 +11,8 @@ https://robohash.org/
 Robohash is a easy web service that makes it easy to provide unique, robot/alien/monster/whatever images for any text.
 Put in any text, such as IP address, email, filename, userid, or whatever else you like, and get back a pretty image for your site.
 # Added SearchBox and Scroll
+# Added ErrorBoundries 
+error Boundries helps users to see the errors in the UI itself, if there's any error
 ## Available Scripts
 
 In the project directory, you can run:
